@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="validUname" value="mngr275032" />
+		<parameter name="validPwd" value="gEdajAd" />
+		<parameter name="invalidUname" value="invalid" />
+		<parameter name="invalidPwd" value="invalid" />
+		<classes>
+			<class name="testScripts.TestScript02" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
